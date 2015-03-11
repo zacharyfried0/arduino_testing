@@ -26,4 +26,12 @@ void loop() {
   delay(1000);              // wait for a second
   digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);              // wait for a second
+  digitalWrite(13, HIGH);   // turn the LED on
+  delay(3000);              // Slightly longer delay time of 3 seconds
+  digitalWrite(13, LOW);    // Turn off the LED
+  delay(500);               // Short delay of half a second
+  digitalWrite(13, HIGH);
+  delay(200);
+  digitalWrite(13, LOW);
+  delay(1000);
 }
