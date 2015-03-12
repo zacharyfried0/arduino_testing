@@ -22,16 +22,67 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);              // wait for a second
-  digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);              // wait for a second
-  digitalWrite(13, HIGH);   // turn the LED on
-  delay(3000);              // Slightly longer delay time of 3 seconds
-  digitalWrite(13, LOW);    // Turn off the LED
-  delay(500);               // Short delay of half a second
+  digitalWrite(13, HIGH); // Start with the letter H, four quick dots
+  delay(500);              
+  digitalWrite(13, LOW);   
+  delay(500);             
+  digitalWrite(13, HIGH);  
+  delay(500);             
+  digitalWrite(13, LOW);   
+  delay(500);               
   digitalWrite(13, HIGH);
-  delay(200);
+  delay(500);
   digitalWrite(13, LOW);
-  delay(1000);
+  delay(500);
+  digitalWrite(13, HIGH); 
+  delay(500);            
+  digitalWrite(13, LOW);  // Finish the letter H
+  delay(2000);            // Long delay for next letter
+  digitalWrite(13, HIGH); // Start the letter E, one quick dot
+  delay(500);
+  digitalWrite(13, LOW);
+  delay(2000);            // Long delay for next letter
+  digitalWrite(13, HIGH); // Start the letter L
+  delay(500);
+  digitalWrite(13, LOW);
+  delay(500);
+  digitalWrite(13, HIGH);
+  delay(1000);            //First long dash
+  digitalWrite(13, LOW);
+  delay(500);
+  digitalWrite(13, HIGH);
+  delay(500);
+  digitalWrite(13, LOW);
+  delay(500);
+  digitalWrite(13, HIGH);
+  delay(500);
+  digitalWrite(13, LOW); // Finish First L
+  delay(2000);           // Long delay before second L
+  digitalWrite(13, HIGH); // Start the second letter L
+  delay(500);
+  digitalWrite(13, LOW);
+  delay(500);
+  digitalWrite(13, HIGH);
+  delay(1000);            //First long dash
+  digitalWrite(13, LOW);
+  delay(500);
+  digitalWrite(13, HIGH);
+  delay(500);
+  digitalWrite(13, LOW);
+  delay(500);
+  digitalWrite(13, HIGH);
+  delay(500);
+  digitalWrite(13, LOW); 
+  delay(2000);           // Long delay before next letter
+  digitalWrite(13, HIGH);
+  delay(500);
+  digitalWrite(13, LOW);
+  delay(500);
+  digitalWrite(13, HIGH);
+  delay(500);
+  digitalWrite(13, LOW);
+  delay(500);
+  digitalWrite(13, HIGH);
+  delay(500);
+  digitalWrite(13, LOW);
 }
